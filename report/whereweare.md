@@ -13,6 +13,8 @@ Every interviewee we spoke with emphasized that JupyterHub has grown in its comp
 
 The varying definitions and interpretations of “What is JupyterHub?” are perhaps best illustrated from the user perspective. Driven by an interest in the well-stated project description on the JupyterHub website[^2], a user might be interested in understanding how much effort it would take to stand up their own JupyterHub. But the website itself does not necessarily help them get started; it takes some scrolling to page two to learn what approaches are used for JupyterHub installation, and even then the reader encounters multiple ways to install. 
 
+[^2]:  “A multi-user version of the \[Jupyter\] notebook designed for companies, classrooms and research labs” \-JupyterHub website
+
 For power users like Shane Knapp, JupyterHub’s flexibility and modularity is a selling point, but one that comes with drawbacks:
 
 > “The nice thing about JupyterHub is that there's so many ways to deploy it. You've got the littlest JupyterHub, you've got Zero to JupyterHub, and you've just got JupyterHub. And all three of those projects have their own intricacies and their own ways to be deployed and managed.” (Shane Knapp)
@@ -114,6 +116,9 @@ The specific structures we identified as inadequately defined or supported are o
 ### Role Clarity on the Leadership Team
 
 JupyterHub has thrived with what organization scientists might call a “flat organization,” or one with few formal hierarchies for decision-making. Decisions are largely made based on consensus, particularly “lazy consensus”[^3] as noted in the project’s [Team Compass](https://compass.hub.jupyter.org/governance/). 
+
+[^3]:  The Apache Software Foundation explains that lazy consensus “is achieved by stating your intent on a public email, and waiting an appropriate amount of time (usually 72 hours) for anyone to object. Silence indicates consent, and after that time has passed, you can assume that nobody objects, and proceed with your plan.” Source: [https://community.apache.org/committers/decisionMaking.html](https://community.apache.org/committers/decisionMaking.html) 
+
 
 When lazy consensus cannot be reached, the Team Compass indicates that the team lead has authority to make a final decision. Yet as Min RK, JupyterHub’s team lead, expressed in his interview, this can lead to one person being overburdened and/or feeling as if they are blocking progress when a quick decision cannot be made. Likewise, a lazy consensus model can prompt contributors to do too little or do too much: In the absence of timely feedback and discussion, a contributor may be discouraged and feel that their contributions are not valued, or they may go ahead and do things that do not align with the project’s preferred software development practices. Sarah Gibson explained the latter scenario and commented on its impact:
 

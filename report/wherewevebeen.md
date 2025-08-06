@@ -122,6 +122,8 @@ Beyond utility, cost, and contributions to important research endeavors, Jupyter
 
 In addition to making scientific computing more approachable, JupyterHub has also made commitments to ensuring that non-code contributions are welcomed and valued in the community.[^1] As Rick Wagner explained, the orientation toward non-code contributions and usage is a cultural pillar of the project that makes JupyterHub a more inclusive community than others:
 
+[^1]:  This report also argues that these efforts to value non-code contributions can be improved; see the recommendations section for more detail.
+
 > “The community, you know, and then this goes back to Fernando setting the bar and then everyone else aligning with him, fortunately is very inclusive, very supportive of contributions in a lot of different ways. **Not everything is about code, even though we know that's fundamental. Without that attitude, I don't think Jupyter as a whole would have succeeded as far if it was all strictly about the code.**” (Rick Wagner)
 
 JupyterHub’s commitment to supporting science has had major, fundamental impacts on human knowledge creation. This holds true at every scale, from undergraduates working on their first research project to Nobel Prize-winning scientific endeavors. JupyterHub serves as critical infrastructure for personal, learning-oriented breakthroughs as well as for societal-level scientific innovation:
