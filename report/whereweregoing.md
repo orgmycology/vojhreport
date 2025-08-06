@@ -59,7 +59,7 @@ Each of the above challenges are understandable and, in some ways, have been tra
 - Facilitate a conversation which seeks to define the bounds of what  JupyterHub is, should be and should **not** be.  
 - Conduct a SWOT analysis to both introspect on the project and look at how its landscape has evolved.
 
-## **2\. Recognizing JupyterHub as a Model Subproject: Be Intentional about JupyterHub’s Relationship to the Broader Jupyter Ecosystem** {#2.-recognizing-jupyterhub-as-a-model-subproject:-be-intentional-about-jupyterhub’s-relationship-to-the-broader-jupyter-ecosystem}
+## 2\. Recognizing JupyterHub as a Model Subproject: Be Intentional about JupyterHub’s Relationship to the Broader Jupyter Ecosystem
 
 JupyterHub as a sub project of Project Jupyter acts as a lynchpin for bringing Jupyter environments to hundreds of thousands of learners, researchers, and scientists worldwide. The project provides the necessary “glue” that makes it possible to run Jupyter kernels, Jupyter Notebooks, JupyterLabs and other environments within cloud and container environments. Under many layers of abstractions, JupyterHub enables users to simply log in and be presented with a prepared environment for their learning or data exploration without the common frustrations experienced by users of other tools.
 
@@ -98,7 +98,7 @@ Multiple stories of the relationship becoming more complicated at the time of th
 - Strengthen connections to other sub-projects in ways that innovations happening in them and in JupyterHub itself are complementary, so as to continue to enable scaling access to tools for assisting in the acceleration of education and science. Be sure to protect JupyterHub’s positive culture when interacting with other groups, such as by holding JupyterHub-only debriefing sessions to discuss what went well and didn’t go well in these engagements.  
 - Teach what works well in JupyterHub’s workflows/processes to other Jupyter subprojects, and learn from what other subprojects do well.
 
-## **3\. Developing a More Unified Voice: Enhancing Communication**  {#3.-developing-a-more-unified-voice:-enhancing-communication}
+## 3\. Developing a More Unified Voice: Enhancing Communication
 
 Communities with highly-technical capabilities can have forums where the topics are hard to understand without context and experience. With JupyterHub’s wide range of possible deployments, the differences in key architectural components, and software capabilities are at times advancing faster than documentation can keep up, the JupyterHub community could benefit from some regular communication channels that are authoritative and which summarize community progress, vision, and capabilities. 
 
@@ -137,7 +137,7 @@ Documentation can also be considered a form of technical communication, and inte
 - Work to embed invitations for contribution–both technical and non-technical–into various communications focus areas  
 - Set aside time to discuss ways of working and sharing and aligning on collective goals, and measuring progress toward those goals. 
 
-## **4\. Sustaining Project Development: Improve Onboarding, Retention, Offboarding, Engagement, and Contributor Pathways** 
+## 4\. Sustaining Project Development: Improve Onboarding, Retention, Offboarding, Engagement, and Contributor Pathways
 
 Bringing in new contributors is a persistent challenge mentioned across interviews with core team members. Issues persist across the entire pipeline: Recruiting new individuals into the community, onboarding them into the community’s workflows and practices, mentoring them to grow into contributors and maintainers, and growing their skills toward leadership positions. The drivers of these issues are, we hope, well-documented above (e.g., technical complexity of the project, JupyterHub’s invisibility to many users). Accordingly, there is no single answer to improving the health of contributor pathways, but there are various opportunities.
 
@@ -195,7 +195,7 @@ Making space for frank conversations about roles, expectations of those roles, a
 
 - Work to develop a plan for revitalizing community building and deepening contributor engagement. Draw from the rich advice and community recommendations quoted above.
 
-## **5\. Have Frank Conversations about Technical and Organizational Debt**  {#5.-have-frank-conversations-about-technical-and-organizational-debt}
+## 5\. Have Frank Conversations about Technical and Organizational Debt
 
 Technical debt accrues when multiple types of users, contributors, and maintainers interact with a project over time, each making choices that have downstream effects. The same can be said for project organization: Decisions get made at a particular stage of project growth and retain inertia far beyond their utility, slowing down decisions and making organizational change a difficult and time-consuming task.
 
@@ -225,7 +225,7 @@ What would it look like for JupyterHub development efforts to consolidate around
 - Develop a list of the roles in the community, and how community members can become onboarded in them. (See Skills Map in appendix as one way to approach this)  
 - Reimagine the ways in which JupyterHub can both invite participation and deepen existing participations as it works through existing technical debt to build updated systems that can meet the community’s strategic goals.
 
-## **6\. Leading the Field: Make Commitments to Diversity and Community Health**  {#6.-leading-the-field:-make-commitments-to-diversity-and-community-health}
+## 6\. Leading the Field: Make Commitments to Diversity and Community Health
 
 All organizations and communities have a responsibility to ensure that both newcomers and existing members feel welcomed, included, and well-treated. JupyterHub has done a commendable job of meeting this responsibility in terms of personal connections and group dynamics, particularly when compared to other similarly-impactful open source software projects. Sustaining this culture, however, is not a given, and requires intentionality. Anecdotally, ensuring inclusion of anyone interested in joining the community gets more difficult over time, especially for high-skill, high-impact communities like JupyterHub. Without sufficient inflow and support for people with diverse backgrounds, communities can fall into a “unicorn trap”: Active leaders and maintainers acquire increasingly specific knowledge and skills about the project that are difficult to communicate, so the job of finding and mentoring new key personnel becomes a search for a non-existent unicorn. Exacerbating this condition is the reality of homophily: A wide range of similarities (e.g., educational background, race/ethnicity, gender identity, hobbies, modes of working, technology preferences) shape closeness of ties between individuals and groups within a social network[^4] (and within organizations, including volunteer organizations[^5]), so we are more likely to form ties with those who are similar. 
 
@@ -246,7 +246,7 @@ There are no easy solutions to telling the social and organizational history of 
 - Continue discussions around code of conduct enforcement and ways to ensure that people who are in the community are kind and welcoming.   
 - Document and share project history in ways that are understandable, at an appropriate and safe level of detail, and useful for both technical and social context.
 
-## **7\. Getting into a Strategic Mindset: Identify and Move Toward Long-term Goals** {#7.-getting-into-a-strategic-mindset:-identify-and-move-toward-long-term-goals}
+## 7\. Getting into a Strategic Mindset: Identify and Move Toward Long-term Goals
 
 A key takeaway from the 2025 JupyterHub Leadership Workshop centered around how the articulation of the project’s mission and vision has changed over time. To be sure, this is both normal and healthy: Projects should actively revisit, discuss, and revise statements about goals and values. Through facilitated conversations, however, the core team found that published statements in various places (e.g., on the project website, in documentation) varied quite a bit: Statements had similarities, but often differed in how they explained the project’s target audience and use cases. The project should therefore take the time to align on up-to-date, unified descriptions of what the project intends to do and the impacts it brings to the world.
 
