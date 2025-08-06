@@ -1,3 +1,25 @@
-# Introduction and Motivation 
+# Introduction and Motivation
 
-[FILL IN SECTION HERE]
+The JupyterHub project enables a unique form of interactive computing that has transformed the ways students and researchers collaborate, innovate, and learn. At the core of this success is the project’s commitment to reducing technical barriers via web-based interfaces: Deploying JupyterHub, novice or non-technical team members can avoid complex installation processes; system administrators (or ad hoc sysadmins) can make authentication and provisioning a more manageable and scalable task; scientists can easily share and iterate on their work with collaborators; and organizations can make the most of their local, cloud, and high-performance computing resources. 
+
+These impacts were not immediate: The project has gradually expanded in its use cases and user base throughout its history. JupyterHub has grown from a niche and experimental academic tool primarily used in classrooms into a resource used by computing teams at top research innovation centers such as NASA, CERN, and the Human Cell Atlas, to name a few. The JupyterHub team has developed software that is increasingly considered critical infrastructure for education and research in a wide variety of scientific and business domains.
+
+The impacts of JupyterHub are directly attributable to the small, scrappy team of contributors and maintainers dispersed across the globe, working with a shared vision and purpose but little formal structure. Many of these individuals have sustained their efforts since the project’s formalization in 2015, marking a decade's work that has benefitted hundreds of thousands of students and supported scientific breakthroughs in a range of fields including astronomy, nuclear physics, bioinformatics, and economics. The work of JupyterHub, and the broader Jupyter project, bring together key infrastructure which disappears into the background of scientific work, quietly enabling and catalyzing collaboration and learning across the globe. 
+
+As its contributors and maintainers past and present have told us, these contributions to education, science, and business have not come without challenges and project growing pains. The JupyterHub project, taking these growing pains seriously, now finds itself seeking pathways to improve the size and strength of its contributor and deployer communities in order to sustain the project and continue catalyzing activities ranging from novice learning to Nobel Prize-winning research. 
+
+This report aims to help with these efforts. Building on work done by JupyterHub grantees under Chan-Zuckerberg Initiative funding and the broader [Jupyter Community Building Working Group (JCB)](https://jupyter.org/about#community-building-working-group-members), a team of consultants from Organizational Mycology and The Turing Way conducted 22 interviews with past and present members of the JupyterHub community. This group of interviewees included JupyterHub leaders, contributors, maintainers, and users, each offering unique insights on the successes of the project and the challenges it has faced in sustaining its impact. Insights from the interviews provided the raw materials from which this report is constructed, guided by several key questions:
+
+* What are the past and existing successes of the JupyterHub community?  
+* What are the activities and actions that have underpinned past successes for JupyterHub?  
+* What opportunities has the JupyterHub community missed, or not been able to leverage for impact, in the past?   
+* How can community development be improved?  
+* What does the contributor community need?  
+* What are the blockers to engagement with the JupyterHub community?  
+* How does the community think about the future of JupyterHub? 
+
+We sought to answer these questions in a simple and straightforward way, identifying commonalities and themes in what interviewees discussed when asked about these topics via a semi-structured interview protocol. We placed these themes in conversation with our observations of JupyterHub project meetings, online communications (e.g., GitHub and Discourse), and published project documentation and reports. We then synthesized the findings, building recommendations from the community’s responses and our analysis of pathways for improving and sustaining the community around JupyterHub. 
+
+Where possible, we supplement the interview data with other analyses to support the central takeaway: **JupyterHub is a critical project that is likely to continue to grow as new deployments are created. Accordingly, pathways for individuals to join the community, take on leadership roles, and contribute to its success need improvement to meet demand.** These improvements are needed both for the sustainability of the project and the wellbeing of its core team.
+
+We hope to help JupyterHub community members to use these findings as a springboard for a set of community-led initiatives that will help drive the JupyterHub project forward. This report serves as the “raw materials” for those initiatives, so that future actions take into account the historical context and community “growing-pains” that have been expressed in interviews and elsewhere. The focus of that work will be to energize the community and find ways in which JupyterHub, despite the complexity of its codebase, can be more inviting to new contributors. An additional goal will be to scaffold project systems, structures, and processes that can support and sustain the project for the long-term. 
