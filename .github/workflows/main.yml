@@ -21,37 +21,37 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-
-    # Install dependencies
-    - name: Set up Python 3.11
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-        cache: pip # Implicitly uses requirements.txt for cache key
-
-    - name: Install Jupyter Book
-      run: pip install jupyter-book
-
-    # Build the book
-    - name: Build the book
-      run: |
-        jupyter-book build .
-
-    # Upload the book's HTML as an artifact
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: "_build/html"
-
-
-    - name: Publish to Cloudflare Pages
-      uses: cloudflare/pages-action@1
-      with:
-        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        projectName: astropy-report 
-        directory: './_output'
-        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+  
+      # Install dependencies
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip # Implicitly uses requirements.txt for cache key
+  
+      - name: Install Jupyter Book
+        run: pip install jupyter-book
+  
+      # Build the book
+      - name: Build the book
+        run: |
+          jupyter-book build .
+  
+      # Upload the book's HTML as an artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_build/html"
+  
+  
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: astropy-report 
+          directory: './_output'
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
 
 
