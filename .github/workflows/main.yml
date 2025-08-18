@@ -10,8 +10,6 @@ on:
   paths:
    - report/**
 
-name: Render and deploy Jupyter Book to Cloudflare
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
