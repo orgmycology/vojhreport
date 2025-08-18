@@ -132,7 +132,7 @@ JupyterHub’s commitment to supporting science has had major, fundamental impac
 
 As we note in the recommendations section, JupyterHub’s leadership and community members have demonstrated humility in communicating these contributions to modern science. Humility is admirable, but the project may benefit from championing and marketing its accomplishments to a broader audience: Being part of something so impactful is undoubtedly attractive to potential newcomers and makes requests for funding and other resources easier to justify.
 
-> “I could see how much people enjoyed Jupyter as their sort of front end experience over using something like SSH for terminal access to HPC.And so we deployed JupyterHub on top of our Slurm cluster And just using JupyterHub in that way really helped the user. It really satisfied a need that I don't think users knew that they had. So learning how to do that, it kind of It just made things easier.” (Ryan) 
+> “I could see how much people enjoyed Jupyter as their front end experience over using something like SSH for terminal access to HPC.And so we deployed JupyterHub on top of our Slurm cluster And just using JupyterHub in that way really helped the user. It really satisfied a need that I don't think users knew that they had. So learning how to do that, it kind of It just made things easier.” (Ryan) 
 
 ## The People Behind JupyterHub’s Success: Culture of Sustaining Impact
 
