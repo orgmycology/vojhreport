@@ -34,12 +34,7 @@ jobs:
       - name: Build the book
         run: |
           jupyter-book build report/
-  
-      # Upload the book's HTML as an artifact
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "_build/html"
+
   
   
       - name: Publish to Cloudflare Pages
@@ -47,8 +42,8 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: astropy-report 
-          directory: './_output'
+          projectName: vojhreport
+          directory: './report/build/html'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
 
