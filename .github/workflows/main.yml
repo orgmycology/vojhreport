@@ -43,7 +43,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: vojhreport
-          directory: './report/build/html'
+          directory: './report/_build/html'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
 
