@@ -292,7 +292,7 @@ JupyterHub is used a wide variety of academic and industry settings, meaning tha
 
 Engaging users and deployers allows them to talk to one another and share insights. This has two main effects. First, users and deployers can naturally develop small communities, such as those already present at UC Berkeley’s DataHub, at NASA, and at consulting organizations like Development Seed. These communities enable users and deployers to help one another when they encounter problems, reducing the burden on the project team to address community concerns:
 
-> “There's opportunities to like enhance the sort of administrative experience of a Jupyter hub. There's nothing that the hub developers need to do to enable me to do that, like to enable me to add those features.” (Ryan) 
+> “There's opportunities to like enhance the administrative experience of a Jupyter hub. There's nothing that the hub developers need to do to enable me to do that, like to enable me to add those features.” (Ryan) 
 
 Second, engaging these groups also helps to build a pipeline of potential new contributors and maintainers. Users and deployers become highly-skilled and knowledgeable over time, but both interviews and the 2025 Leadership workshop demonstrated that these groups often do not feel like they are part of the JupyterHub community. Dedicated methods for engaging these groups might aid in addressing some of the labor supply issues facing JupyterHub.
 
