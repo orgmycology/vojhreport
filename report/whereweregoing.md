@@ -73,24 +73,7 @@ The JupyterHub subproject has a history of being a welcoming place for technical
 
 The lack of technical explicit dependencies can be seen as a feature when looked at under the right light, not a bug. This kind of loose coupling between projects, rather than tight technical coupling, enables both projects to move relatively independently of each other. This can also lead to significant cultural differences in how work is prioritized, distributed, and completed across sub-projects. It was clear from this research work that the culture of JupyterHub and the culture of other Jupyter projects are quite different. In fact, some interviewees talked about avoiding the larger Jupyter project because of past challenges and conflicts with leadership.
 
-Recognizing that people come to JupyterHub for certain types of culture, working practices and community, it is also important to recognize that other Project Jupyter subprojects also have their own practices and norms. Throughout our research and interviews, the work and culture in JupyterHub was socially positive–that is, people enjoyed working with those in the JupyterHub community. That is not necessarily the case for the broader Jupyter ecosystem, as we learned in conversations with members of both JupyterHub and other Jupyter subprojects in this work. 
-
-#### Social  {#social}
-
-* Group-level (e.g., toxicity, belongingness, DEI)  
-  * Carol’s story/concerns  
-* Individual level (reputational benefits, personal harms, DEI)   
-  * Some people mentioned that it is a recognizable, professionally-beneficial thing to be associated with Jupyter
-
-#### Technical  {#technical}
-
-Community members have expressed that dependencies are largely one-way, Jupyter is a user of JupyterHub’s technology and not always vice versa. Users of JupyterHub also recount how flexible it is and that it can be used for bringing a myriad of other tools (not just notebooks) to users in a secure manner.Notebook offerings (such as marimo) which can be seen as competitors to JupyterLab have been run using JupyterHub. This has caused some community members to ask themselves what the relationship is like today with the larger Jupyter Project and how it might evolve in the future. It was clear during an exercise to “Draw JupyterHub” at the June Leadership retreat that most people’s view of JupyterHub was that of a utility enabler of science and collaboration across a myriad of tools, not just JupyterLab. 
-
-#### Structural/Sociotechnical {#structural/sociotechnical}
-
-> Changing financial and governance structure in Project Jupyter has implications for the subprojects (Paul)  
-
-Multiple stories of the relationship becoming more complicated at the time of the arrival of JupyterLab 
+Recognizing that people come to JupyterHub for certain types of culture, working practices and community, it is also important to recognize that other Project Jupyter subprojects also have their own practices and norms. Throughout our research and interviews, the work and culture in JupyterHub was socially positive–that is, people enjoyed working with those in the JupyterHub community. That is not necessarily the case for the broader Jupyter ecosystem, as we learned in conversations with members of both JupyterHub and other Jupyter subprojects in this work.  
 
 **Next Actions:**
 
