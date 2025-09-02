@@ -4,9 +4,9 @@
 
 ## JupyterHub is awesome:
 
-* JupyterHub has enabled the delivery of computing and scientific research education to hundreds of thousands of students.
+* JupyterHub has enabled the delivery of computing and scientific research education to hundreds of thousands of learners.
 * JupyterHub has enabled scientific innovation, from small lab day-to-day operations to cutting-edge international collaborations.  
-* JupyterHub has accomplished most of this by fostering a positive, mission-driven culture and hacking together organizational structure.
+* JupyterHub has accomplished most of this by fostering a positive, mission-driven culture and hacking together its organizational structure.
 
 ## JupyterHub can be better
 
