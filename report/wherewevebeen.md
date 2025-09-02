@@ -10,11 +10,11 @@ The survival of an OSS project over a ten-year period is reason enough to celebr
 
 ## Meeting the Project’s Original Goal: Improving Education with JupyterHub
 
-The original team of JupyterHub developers aimed to solve a teaching challenge: Students learning to do scientific computing struggled with access to computing resources and installation of software stacks, causing frustration for instructors and disengagement for learners. JupyterHub enabled ad-hoc system administrators–in many cases teaching assistants or instructors–to develop Jupyter Notebook environments that could be accessed and used via web-based interfaces by anyone with a web browser. 
+The original team of JupyterHub developers aimed to solve a teaching challenge: People learning to do scientific computing struggled with access to computing resources and installation of software stacks, causing frustration for instructors and disengagement for learners. JupyterHub enabled ad-hoc system administrators–in many cases teaching assistants or instructors–to develop Jupyter Notebook environments that could be accessed and used via web-based interfaces by anyone with a web browser. 
 
 ### Reducing Barriers to Teaching Computing
 
-Building on prior work supporting software development in small teams, Min RK and Brian Granger kickstarted work to create a tool that would enable students to simply log in and have everything they needed to begin interacting with a computing environment, making it easier for them to begin learning essential computing skills. 
+Building on prior work supporting software development in small teams, Min RK and Brian Granger kickstarted work to create a tool that would enable learners to simply log in and have everything they needed to begin interacting with a computing environment, making it easier for them to begin learning essential computing skills. 
 
 A key feature of early JupyterHub deployments enabled Instructors to predefine and install the software requirements for what they were teaching in their courses, reducing the time and cognitive intensity required to get learners set up. As Min explained, what started as a few deployments soon grew into a service that got instructors excited about future possibilities:
 
@@ -64,7 +64,7 @@ In this way, the JupyterHub project demonstrates a principled approach to expand
 
 > “The research that people can do, and the things that they can write and produce with those notebooks … it's mind-blowing.” (Georgiana Dolocan)* 
 
-JupyterHub’s early developers realized that scientific research teams at institutions deploying the tool for learners experience many of the same pain points as students and instructors. The team therefore made a gradual, concerted effort to bring its tools and resources to small labs and large scientific collaborations. 
+JupyterHub’s early developers realized that scientific research teams at institutions deploying the tool for learners experience many of the same pain points as university students and instructors. The team therefore made a gradual, concerted effort to bring its tools and resources to small labs and large scientific collaborations.
 
 ### Providing a New Way to Innovate and Collaborate
 
