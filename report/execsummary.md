@@ -5,24 +5,26 @@
 ## JupyterHub is awesome:
 
 * JupyterHub has enabled the delivery of computing and scientific research education to hundreds of thousands of students.
-* JupyterHub has enabled scientific innovation, from small lab day-to-day operations to Nobel Prize-winning international collaborations.  
+* JupyterHub has enabled scientific innovation, from small lab day-to-day operations to cutting-edge international collaborations.  
 * JupyterHub has accomplished most of this by fostering a positive, mission-driven culture and hacking together organizational structure.
 
 ## JupyterHub can be better
 
-* JupyterHub struggles with onboarding new contributors and delegating responsibility, owing largely to its collective humility about being at the frontier of computing education and research.
-* JupyterHub’s collective leadership culture needs collective leadership structures to avoid leader burnout.
+* JupyterHub struggles with onboarding new contributors and delegating responsibility, owing largely to its collective humility about being at the frontier of computing education and research and the overall complexity of the project.
+* JupyterHub’s collective leadership culture needs collective leadership structures to avoid leader burnout, including increased role clarity.
+* Project management, prioritization, and triage processes are a source of stress for maintainers and confusion for newcomers, and therefore need refinement.
 
 ## JupyterHub has many ways forward:
 
 * Take pride in the project and tell the stories of JupyterHub.
-* Recognize that JupyterHub is a model subproject and be intentional about JupyterHub’s relationship to the broader Jupyter project.
+* Recognize that JupyterHub is a model subproject and be intentional about JupyterHub’s relationship to the broader Jupyter ecosystem.
 * Develop a more unified voice and enhance communication.
-* Improve onboarding/offboarding, engagement and contributor pathways.
+* Improve onboarding/offboarding, retention, engagement and contributor pathways.
 * Have frank conversations about technical and organizational debt
 * Make commitments to diversity and community health
 * Get into a strategic mindset to move towards long term goals
-* Build organizational capacity
+* Build organizational capacity, particularly in non-technical domains
+* Develop a more productive approach to engaging and working with deployers and users of hubs.
 
 
 
