@@ -162,9 +162,9 @@ On the other hand, if no team member acts quickly to address a PR, question, bug
 
 Prioritization and triage are difficult to improve in the absence of a consistent supply of maintainers and other key personnel. JupyterHub might consider having dedicated, sustained conversations about how these processes are structured, perhaps revisiting them on a regular basis to accommodate changes in key personnel’s availability and skill development. A partial solution, in other words, might not require a highly-formal and codified process, but rather ongoing and honest conversation about what can realistically be managed in a given week, month, or year with the current labor available.
 
-> “so Jupyter is kind of like big enough where there's some conflict, maybe, or disagreements that don't necessarily always resolve satisfactorily to keep people participating. And so people, while keeping their one foot in, participating more tepidly, they take on other efforts to do their own thing.” (Paul)
+> “So Jupyter is kind of like big enough where there's some conflict, maybe, or disagreements that don't necessarily always resolve satisfactorily to keep people participating. And so people, while keeping their one foot in, participating more tepidly, they take on other efforts to do their own thing.” (Paul Ivanov)
 
-> “I think that there are multiple times where the project has been conflict avoidant, or there's been a lack of crystal clarity around the fact that we fundamentally disagree about either what we're doing or how we're doing it. And a lack of decision to address that or to somehow it ends up kind of like at most like, oh, yes, we disagree. And then kind of let's diffuse away from into other things. People find new shiny toys to play with or they continue to try to participate in whatever way they can. But it's clear that we do not, as a project, openly talk about the things that we disagree about.” (Paul) 
+> “I think that there are multiple times where the project has been conflict avoidant, or there's been a lack of crystal clarity around the fact that we fundamentally disagree about either what we're doing or how we're doing it. And a lack of decision to address that or to somehow it ends up kind of like at most like, oh, yes, we disagree. And then kind of let's diffuse away from into other things. People find new shiny toys to play with or they continue to try to participate in whatever way they can. But it's clear that we do not, as a project, openly talk about the things that we disagree about.” (Paul Ivanov) 
 
 ### Valuing Non-Code Contributions
 
@@ -190,6 +190,15 @@ Samuel Gaist suggests that automations in Slack channels which deliver notificat
 
 The above challenges are natural outcomes of project growth and the community’s orientation toward collective responsibility. With some structure to support this collective responsibility, JupyterHub can place itself in a strong position to continue having the impacts that have made the project a success.
 
-> “I hit a wall with trying to get something across because, you know, Brian chimes in is like, oh, we have to like, oh, it's you've worked on this thing for two weeks or something like that. But we were like, we need to think about this. And I like pumping the brakes on something that I had done and. It takes a while for that to through and I send an email to Brian directly saying like, hey, this doesn't work out like you can't or when you do this, people bounce off like I'm this is part of my job. So I am and I also know you and I know what like I have a lot of context and being able to participate this, but this is feeling like a like a blocker for growing the community and for allowing people to continue to participate in this.” (Paul) 
+> “I hit a wall with trying to get something across because, you know,
+Brian chimes in and is like, 'Oh, you've worked on this thing for two
+weeks' or something like that, 'but we need to think about this,' and
+pumping the brakes on something that I had done. And it takes a while
+for that to get through, and I sent an email to Brian directly saying
+like, 'Hey, this doesn't work out. When you do this, people bounce off.
+This is part of my job. I also know you and I know what, like, I have a
+lot of context to be able to participate in this. But this is feeling
+like a blocker for growing the community and for allowing people to
+continue to participate in this.'” (Paul Ivanov) 
 
-> “And it wasn't explicitly something about the project, but it was the kind of, like an example of someone feeling like, like this is too much, like this doesn't work for me. I'm not here for this kind of open source. I'm going to do something like this is wrong, and I'm just going to bounce out. And other people more kind of like fade away quietly and disengage in a less kind of splashy, bomby kind of way.” (Paul) 
+> “And it wasn't explicitly something about the project, but it was the kind of, like an example of someone feeling like, like this is too much, like this doesn't work for me. I'm not here for this kind of open source. I'm going to do something like this is wrong, and I'm just going to bounce out. And other people more kind of like fade away quietly and disengage in a less kind of splashy, bomby kind of way.” (Paul Ivanov) 
