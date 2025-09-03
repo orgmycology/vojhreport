@@ -230,6 +230,8 @@ Similarly, Raniere noted how his trajectory toward his current career as a Resea
 
 > “Attending the one day workshop that Sarah Gibson led like many years ago and having \[to\] submit a small pull request, like the Binder Hub interface should change types or something, I think, **contributed to me being hired for the position that I have at the moment**.” (Raniere Silva) 
 
+Martha Cryan had a similar career-advancing experience when presenting with Damián Avila at a conference. Martha was, at the time, looking for employment, and Damián's on-stage endorsement added credibility to her already-impressive track record of being a high-quality job candidate in the software development field: 
+
 > “At the end of the talk, he \[Damian\] was like, by the way, Martha's awesome and you should hire her… That was when I walked off stage and like three different startups had already emailed me. And like, that was how I got a job actually like was literally just because he said that.” (Martha Cryan)
 
 Project leadership recognizes and is proud of this feature of JupyterHub participation. Although turnover can be difficult to manage, seeing maintainers and contributors take on new jobs and roles is a gratifying experience and one that serves the purpose of attracting more people into the project:
