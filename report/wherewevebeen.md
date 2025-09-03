@@ -194,7 +194,7 @@ Beyond making newcomers feel welcome, direct engagement with leadership also pla
 
 While this form of engagement from leadership is perhaps not scalable in that leaders cannot devote equal time to every new community member, it is worth thinking about how JupyterHub can build structures to support similar experiences for all newcomers. Ideas might include:
 
-* Monthly or quarterly meet-and-greet sessions for newcomers, attended by all or some of the JupyterHub leadership team;  
+* Monthly or quarterly meet-and-greet sessions for newcomers, attended by all or some of the JupyterHub leadership team  
 * Leadership office hours, where one or more newcomers can meet leadership and discuss ideas or experiences  
 * Leadership welcome messages to newcomers in various forums (e.g., Discourse or Zulip)
 
