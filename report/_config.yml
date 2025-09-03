@@ -13,8 +13,9 @@ execute:
 
 # Define the name of the latex output file for PDF builds
 latex:
+  latex_engine: pdflatex
   latex_documents:
-    targetname: book.tex
+    targetname: voicesofjupyterhub2025.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -39,7 +40,7 @@ html:
   use_repository_button: true
   extra_footer: |
     <div style="overflow: auto;"> 
-    <a href="https://orgmycology.com"><img src="https://data.orgmycology.com/short_logo.svg" style="float: right; margin-left: 10px; width: 300px; height: auto; background-color: white; border-radius: 10px; padding: 10px; box-shadow: 0 0 5px rgba(0,0,0,0.1);"></a>
-    <p>A CC0 Resource.</p>
+    <a href="https://orgmycology.com"><img src="https://data.orgmycology.com/short_logo.svg" style="background-color: white; width: 300px;"></a>
+    <p>A Creative Commons Zero Resource</p>
     </div>
 
