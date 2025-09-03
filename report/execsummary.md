@@ -20,10 +20,10 @@
 * Recognize that JupyterHub is a model subproject and be intentional about JupyterHub’s relationship to the broader Jupyter ecosystem.
 * Develop a more unified voice and enhance communication.
 * Improve onboarding/offboarding, retention, engagement and contributor pathways.
-* Have frank conversations about technical and organizational debt
-* Make commitments to diversity and community health
-* Get into a strategic mindset to move towards long term goals
-* Build organizational capacity, particularly in non-technical domains
+* Have frank conversations about technical and organizational debt.
+* Make commitments to diversity and community health.
+* Get into a strategic mindset to move towards long term goals.
+* Build organizational capacity, particularly in non-technical domains.
 * Develop a more productive approach to engaging and working with deployers and users of hubs.
 
 
