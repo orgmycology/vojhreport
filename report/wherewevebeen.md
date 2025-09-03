@@ -60,9 +60,9 @@ In this way, the JupyterHub project demonstrates a principled approach to expand
 
 ## Catalyzing Scientific Innovation: JupyterHub’s Impact on Research
 
-> “Well, to me, the role of Jupyter is to help the humans think about the world with computing and data resources wherever they are.” (Fernando Pérez)*
+> “Well, to me, the role of Jupyter is to help the humans think about the world with computing and data resources wherever they are.” (Fernando Pérez)
 
-> “The research that people can do, and the things that they can write and produce with those notebooks … it's mind-blowing.” (Georgiana Dolocan)* 
+> “The research that people can do, and the things that they can write and produce with those notebooks … it's mind-blowing.” (Georgiana Dolocan) 
 
 JupyterHub’s early developers realized that scientific research teams at institutions deploying the tool for learners experience many of the same pain points as university students and instructors. The team therefore made a gradual, concerted effort to bring its tools and resources to small labs and large scientific collaborations.
 
