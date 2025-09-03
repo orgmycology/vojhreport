@@ -42,7 +42,4 @@ html:
     <a href="https://orgmycology.com"><img src="https://data.orgmycology.com/short_logo.svg" style="float: right; margin-left: 10px; width: 300px; height: auto; background-color: white; border-radius: 10px; padding: 10px; box-shadow: 0 0 5px rgba(0,0,0,0.1);"></a>
     <p>A CC0 Resource.</p>
     </div>
-  extra_navbar: |
-    <div>
-        <a href="https://orgmycology.com"><img src="https://data.orgmycology.com/spore_gray.png"></a>
-    </div>
+
