@@ -8,7 +8,7 @@
 * JupyterHub has enabled scientific innovation, from small lab day-to-day operations to cutting-edge international collaborations.  
 * JupyterHub has accomplished most of this by fostering a positive, mission-driven culture and hacking together its organizational structure.
 
-## JupyterHub can be better
+## JupyterHub can be better:
 
 * JupyterHub struggles with onboarding new contributors and delegating responsibility, owing largely to its collective humility about being at the frontier of computing education and research and the overall complexity of the project.
 * JupyterHub’s collective leadership culture needs collective leadership structures to avoid leader burnout, including increased role clarity.
