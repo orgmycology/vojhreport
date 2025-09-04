@@ -17,7 +17,7 @@ The varying definitions and interpretations of “What is JupyterHub?” are per
 
 For power users like Shane Knapp, JupyterHub’s flexibility and modularity is a selling point, but one that comes with drawbacks:
 
-> “The nice thing about JupyterHub is that there's so many ways to deploy it. You've got the littlest JupyterHub, you've got Zero to JupyterHub, and you've just got JupyterHub. And all three of those projects have their own intricacies and their own ways to be deployed and managed.” (Shane Knapp)
+> “The nice thing about JupyterHub is that there's so many ways to deploy it. You've got The Littlest JupyterHub, you've got Zero to JupyterHub, and you've just got JupyterHub. And all three of those projects have their own intricacies and their own ways to be deployed and managed.” (Shane Knapp)
 
 Later in the conversation, Shane describes how this flexibility makes it difficult to identify reference architectures and causes pain points in getting started with JupyterHub. He believes there is a lack of statistics about implementations that could be beneficial to better understand the way users are deploying JupyterHub, thereby helping the project’s developers ease common pain points in the most popular types of deployments:
 
