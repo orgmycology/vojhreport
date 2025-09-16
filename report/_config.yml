@@ -43,4 +43,6 @@ html:
     <a href="https://orgmycology.com"><img src="https://data.orgmycology.com/short_logo.svg" style="background-color: white; width: 300px;"></a>
     <p>A Creative Commons Zero Resource</p>
     </div>
-
+  analytics:
+    plausible_analytics_domain: voicesofjupyterhub.orgmycology.com
+    plausible_analytics_url: https://a.duckles.nz/js/script.js
