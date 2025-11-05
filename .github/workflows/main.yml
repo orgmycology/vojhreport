@@ -33,7 +33,7 @@ jobs:
       # Build the book
       - name: Build the book
         run: |
-          cd report && jupyter-book build 
+          cd report && jupyter-book build && cd ..
 
   
   
@@ -43,7 +43,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: vojhreport
-          directory: './report/_build/html'
+          directory: 'report/_build/html'
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
 
