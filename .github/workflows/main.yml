@@ -38,12 +38,11 @@ jobs:
   
   
       - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@1
+        uses: cloudflare/wrangler-action@3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: vojhreport
-          directory: 'report/_build/html'
+          command: pages deploy ./report/_build/html --project-name=vojhreport
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
 
