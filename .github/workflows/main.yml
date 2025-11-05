@@ -42,7 +42,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: echo $PWD && pages deploy _build/html --project-name=vojhreport
+          command: pages deploy _build/html --project-name=vojhreport
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
 
