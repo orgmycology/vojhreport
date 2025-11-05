@@ -33,7 +33,7 @@ jobs:
       # Build the book
       - name: Build the book
         run: |
-          jupyter-book build report/
+          cd report && jupyter-book build 
 
   
   
