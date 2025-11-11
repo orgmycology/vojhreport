@@ -92,7 +92,9 @@ The wide range of applications illustrates JupyterHub’s utility. But when open
 
 > “One of the stronger memories I have is, at some JupyterCon or somewhere, the IPCC \[Intergovernmental Panel on Climate Change\] people were using a MyBinder link to demonstrate some of their stuff.” (Yuvi Panda) 
 
+
 ### Reducing Computing Costs
+
 
 The sustained deployment of JupyterHub across these various domains is in some ways surprising. JupyterHub was among the first tools to enable distributed, efficient collaboration in scientific computing, but in recent years, JupyterHub is not without “competitors”: Proprietary software and computing systems offer similar utility, particularly for enterprise applications. One key way in which JupyterHub has sustained its presence in a wide range of contexts is cost. As Yuvi Panda pointed out, JupyterHub delivers value to users that would otherwise be quite expensive, particularly at scale:
 
