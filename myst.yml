@@ -3,7 +3,7 @@ version: 1
 project:
   downloads:
     - id: vojh-report
-      title: A PDF of this document      
+      title: Full Report PDF      
   license: 
     content: CC0-1.0
   thumbnail: thumbnail.jpg
