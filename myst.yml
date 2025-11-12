@@ -3,11 +3,22 @@ version: 1
 project:
   license: 
     content: CC0-1.0
+  funding: This work was supported by the Chan Zuckerberg Initative
   id: 0f03b205-e59f-44f9-8779-1442dcaa4d86
   title: Voices of JupyterHub
   description: This report, based on interviews and interactions with members of the JupyterHub community, aims to celebrate accomplishments of the community.
   # keywords: []
-  authors: ["Dan Sholler", "Beth Duckles", "Jonah Duckles"]
+  authors: 
+    - name: "Dan Sholler"
+      affiliations:
+        - "Organizational Mycology"
+    - name: "Beth Duckles"
+      affiliations:
+        - "Organizational Mycology"
+    - name: "Jonah Duckles"
+      affiliations:
+        - "Organizational Mycology"
+
   github: https://github.com/orgmycology/vojhreport
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   exports:
