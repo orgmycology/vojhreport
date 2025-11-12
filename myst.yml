@@ -1,6 +1,9 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  downloads:
+    - id: vojh-report
+      title: A PDF of this document      
   license: 
     content: CC0-1.0
   funding: This work was supported by the Chan Zuckerberg Initative
@@ -40,7 +43,7 @@ project:
       logo: short_logo.png
       template: lapreprint-typst
       id: vojh-report
-      output: exports/voicesofjupyterhub.pdf
+      output: _build/html/voicesofjupyterhub.pdf
       articles: 
         - intro.md
         - execsummary.md
@@ -62,6 +65,4 @@ site:
   options:
   #   favicon: favicon.ico
      logo: logo.png
-downloads:
-  - id: vojh-report
-    title: A PDF of this document
+
