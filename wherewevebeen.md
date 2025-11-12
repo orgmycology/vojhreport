@@ -50,6 +50,8 @@ Going forward, JupyterHub’s impact on education appears poised to expand even 
 
 > “Cal-sponsored and California Learning Lab-sponsored JupyterHubs for UCs, Cal States, and California Community Colleges **that can't afford a tech team.** So we're actually going to start hosting users this summer with some summer classes as our test, and then we'll have probably at least a couple thousand users across a few different hubs in the fall.” (Shane Knapp)
 
+<br>
+
 ### Enabling “Centralized Decentralization”
 
 Initiatives like CAL-ICOR demonstrate a key strength of the JupyterHub project: a unique balance between centralization and decentralization. On one hand, CAL-ICOR is somewhat centralized, with the initiative offering support to institutions in getting learners and researchers set up to begin working with the tool. On the other hand, participating institutions can adopt and adapt the tool to match their needs and institutional realities. As Chris Holdgraf explained, this flexibility is an example of “centralized decentralization,’ enabling communities to decide how independent or interactive they’d like to be with the broader JupyterHub ecosystem:
@@ -92,6 +94,7 @@ The wide range of applications illustrates JupyterHub’s utility. But when open
 
 > “One of the stronger memories I have is, at some JupyterCon or somewhere, the IPCC \[Intergovernmental Panel on Climate Change\] people were using a MyBinder link to demonstrate some of their stuff.” (Yuvi Panda) 
 
+<br>
 
 ### Reducing Computing Costs
 
@@ -104,6 +107,8 @@ JupyterHub’s impact on scientific work is also evident in the demand for servi
 
 > “I'm lucky to have an employer, a job that lets me work on JupyterHub as part of my day job. So we work with a bunch of teams within NASA that deploy their own JupyterHub instance, in collaboration with 2i2c, of course. And they all have this common problem where they need a lot of storage for their users.  **And the general solution was to use something offered by Amazon, which is kind of pricey, also doesn't let you kind of limit the amount of storage that users get. This is a common problem that all the hubs that run for NASA had and I got involved trying to solve this problem.**” (Tarashish Mishra) 
 
+<br>
+
 ### Generalizing OSS’s Scientific Impact
 
 Tarashish noted that doing this kind of work to enable better science within major research centers has positive knock-on effects for the rest of the scientific community, owing to the project being open source:
@@ -115,6 +120,8 @@ Participating in these efforts to solve specific, interesting research challenge
 > “Just contributing to a project like JupyterHub, which is so widely used, is also satisfying in a sense.” (Tarashish Mishra) 
 
 > “If I'm doing this voluntarily, most of the time, if I'm going to do anything substantive, it's going to be something that I think is interesting.” (Simon Li) 
+
+<br>
 
 ### Making Scientific Computing Skills More Accessible
 
@@ -135,6 +142,8 @@ JupyterHub’s commitment to supporting access to scientific data and software r
 As we note in the recommendations section, JupyterHub’s leadership and community members have demonstrated humility in communicating these contributions to modern science and the dem. Humility is admirable, but the project may benefit from championing and marketing its accomplishments to a broader audience: Being part of something so impactful is undoubtedly attractive to potential newcomers and makes requests for funding and other resources easier to justify.
 
 > “I could see how much people enjoyed Jupyter as their front end experience over using something like SSH for terminal access to HPC.And so we deployed JupyterHub on top of our Slurm cluster And just using JupyterHub in that way really helped the user. It really satisfied a need that I don't think users knew that they had. So learning how to do that, it kind of It just made things easier.” (Ryan) 
+
+<br>
 
 ## The People Behind JupyterHub’s Success: Culture of Sustaining Impact
 
@@ -179,6 +188,8 @@ Carol’s attention to relationship-building and a positive environment is also 
 Like any other organization or group, JupyterHub is not perfect. Challenges and conflicts have arisen in the past and will continue to arise in the normal course of everyday work. But the efforts of early leaders to be conscious of building a positive culture has helped the project retain key contributors and leaders for over a decade–a feat worth celebrating. 
 
 > “And everyone that I met that was on the JupyterHub side was... the best way I can articulate it is that they were kind of trustworthy. I felt there was an almost directness to a lot of them.” (Martha Cryan) 
+
+<br>
 
 ### Newcomer Engagement with Leadership
 

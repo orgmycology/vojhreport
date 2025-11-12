@@ -6,6 +6,8 @@ project:
       title: A PDF of this document      
   license: 
     content: CC0-1.0
+  thumbnail: thumbnail.jpg
+  date: 2015-09-03
   funding: This work was supported by the Chan Zuckerberg Initative
   id: 0f03b205-e59f-44f9-8779-1442dcaa4d86
   title: Voices of JupyterHub
@@ -43,7 +45,7 @@ project:
       logo: short_logo.png
       template: lapreprint-typst
       id: vojh-report
-      output: _build/html/voicesofjupyterhub.pdf
+      output: exports/voicesofjupyterhub.pdf
       articles: 
         - intro.md
         - execsummary.md

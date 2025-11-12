@@ -55,6 +55,8 @@ Luckily, experienced users and deployers of JupyterHub approach the complexity p
 
 > “It's amazing how configurable it is. There's so many configurable parts to it. Every authentication component is configurable. The spawning aspect is configurable. You can spawn on a Kubernetes, spawn on to Docker, spawn on a big single user machine. And so it's deliberately designed in such a way that it's not like a product that you just sort of hand off to people, it's meant to be like deployed in many different ways.” (Ryan Lovett) 
 
+<br>
+
 ## Reconciling Complexity, Leadership, and the Newcomer Experience
 
 > *“The project has a level of complexity that makes it hard to contribute to it.” (Fernando Pérez)*
@@ -103,6 +105,8 @@ The final piece of this intertwined complexity, leadership, and newcomer challen
 
 > “And there was a discomfort for me, in one, what's a good idea, and two, **not knowing how to bring people along with me without sounding like a dictator**. … I'm also involved in conversations where people are like, ‘Well anybody can lead from whatever position because it's about inspiring the people around you,’ and that's very different to managing. And I'm thinking, ‘Yeah, but I don't feel like I'm uncomfortable with the idea that I just pontificate and then go away and expect people to execute my idea.” (Sarah Gibson) 
 
+<br>
+
 ## Specific Leadership Challenges
 
 Empowering team members to take on leadership challenges requires structures that make leadership feel less burdensome. Potential leaders of the project, in other words, need to feel as if they are not taking on an overwhelming amount of additional work and that their role comes with the appropriate level of authority to delegate tasks and otherwise influence the distribution of community effort. 
@@ -142,6 +146,8 @@ Additionally, this challenge is an important one to address for current project 
 
 > “And then at some point, it was actually a little bit before I started working at 2i2c, the CZI grant started to be talked about. And it's a diversity, equity, and inclusion grant. And I care about it a lot. But I also think it was probably a little bit of a mistake to put me in that role. I don't really think I had a very mature strategy or leadership skills to be doing that kind of work. And it ended up just being a bit of a personal burden, really. No one was putting pressure on me externally, but I was putting a lot of pressure on myself for it. And yeah, ultimately decided to step back from that.” (Sarah Gibson)
 
+<br>
+
 ### Refining Project Management, Prioritization, and Triage Processes
 
 Dependency on “lazy consensus” for decision-making has impacted JupyterHub’s project management practices, particularly the prioritization of development/maintenance work, generally, and triage, specifically. As pointed out by Erik Sundell in an earlier section of this report, taking action to address the project’s most pressing issues often requires the direct involvement of Min RK: Min is one of only a few individuals who understands the complexity and nuance of the codebase, its relationships to other software/hardware, and the project’s development history. Even the most seasoned community members turn to Min before making major decisions, a reality that has established him as the project lead.
@@ -167,6 +173,8 @@ Prioritization and triage are difficult to improve in the absence of a consisten
 > “So Jupyter is kind of like big enough where there's some conflict, maybe, or disagreements that don't necessarily always resolve satisfactorily to keep people participating. And so people, while keeping their one foot in, participating more tepidly, they take on other efforts to do their own thing.” (Paul Ivanov)
 
 > “I think that there are multiple times where the project has been conflict avoidant, or there's been a lack of crystal clarity around the fact that we fundamentally disagree about either what we're doing or how we're doing it. And a lack of decision to address that or to somehow it ends up kind of like at most like, oh, yes, we disagree. And then kind of let's diffuse away from into other things. People find new shiny toys to play with or they continue to try to participate in whatever way they can. But it's clear that we do not, as a project, openly talk about the things that we disagree about.” (Paul Ivanov) 
+
+<br>
 
 ### Valuing Non-Code Contributions
 
