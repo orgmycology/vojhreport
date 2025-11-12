@@ -1,6 +1,8 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  license: 
+    content: CC0-1.0
   id: 0f03b205-e59f-44f9-8779-1442dcaa4d86
   title: Voices of JupyterHub
   description: This report, based on interviews and interactions with members of the JupyterHub community, aims to celebrate accomplishments of the community.
@@ -29,7 +31,7 @@ project:
     - file: wherewevebeen.md
     - file: whereweare.md
     - file: whereweregoing.md
-    
+
 site:
   template: book-theme
   options:
