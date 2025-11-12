@@ -12,13 +12,21 @@ project:
     - name: "Dan Sholler"
       affiliations:
         - "Organizational Mycology"
+      url: https://orgmycology.com
+      linkedin: https://www.linkedin.com/in/dan-sholler-46169620/
+      bluesky: https://bsky.app/profile/dansholler.bsky.social
     - name: "Beth Duckles"
       affiliations:
         - "Organizational Mycology"
+      url: https://orgmycology.com
+      linkedin: https://www.linkedin.com/in/beth-m-duckles/
+      bluesky: https://bsky.app/profile/bduckles.bsky.social
     - name: "Jonah Duckles"
       affiliations:
         - "Organizational Mycology"
-
+      url: https://orgmycology.com
+      linkedin: https://www.linkedin.com/in/jduck/
+      bluesky: https://bsky.app/profile/jonah.duckles.nz
   github: https://github.com/orgmycology/vojhreport
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   exports:
