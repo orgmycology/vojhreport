@@ -16,6 +16,7 @@ project:
       email: info@orgmycology.com
       linkedin: https://www.linkedin.com/in/dan-sholler-46169620/
       bluesky: https://bsky.app/profile/dansholler.bsky.social
+      orcid: 0000-0003-2517-4317
     - name: "Beth Duckles"
       affiliations:
         - "Organizational Mycology"
@@ -23,6 +24,7 @@ project:
       email: info@orgmycology.com
       linkedin: https://www.linkedin.com/in/beth-m-duckles/
       bluesky: https://bsky.app/profile/bduckles.bsky.social
+      orcid: 0000-0001-8342-0710
     - name: "Jonah Duckles"
       affiliations:
         - "Organizational Mycology"
@@ -30,6 +32,7 @@ project:
       email: info@orgmycology.com
       linkedin: https://www.linkedin.com/in/jduck/
       bluesky: https://bsky.app/profile/jonah.duckles.nz
+      orcid: 0000-0002-8985-3119
   github: https://github.com/orgmycology/vojhreport
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   exports:
