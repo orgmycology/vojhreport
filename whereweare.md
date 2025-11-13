@@ -1,7 +1,9 @@
 
 # Where We Are: Current Challenges in Sustaining JupyterHub
 
-> *“...​​And then it propagated much more rapidly than we were prepared for. Certainly much more than we expected or intended.” (Min RK)* 
+> *“...​​And then it propagated much more rapidly than we were prepared for. Certainly much more than we expected or intended.” 
+>
+> -- Min RK* 
 
 We are hopeful that the above sections are convincing of the following: JupyterHub has had a substantial impact on learners, scientists, and its own community members, and the project is well-positioned to grow this impact even further. OSS projects, however, are often the victims of their own success. Interest in usage grows much faster than the number of contributors and maintainers, the level of funding, and institutional support available, making the project difficult to sustain. These “growing pains” can compound when there is no set leadership structure for the project to fundraise, delegate resources or allocate labor to particular priorities, and generally set a community-driven direction for the project. 
 
@@ -17,15 +19,21 @@ The varying definitions and interpretations of “What is JupyterHub?” are per
 
 For power users like Shane Knapp, JupyterHub’s flexibility and modularity is a selling point, but one that comes with drawbacks:
 
-> “The nice thing about JupyterHub is that there's so many ways to deploy it. You've got The Littlest JupyterHub, you've got Zero to JupyterHub, and you've just got JupyterHub. And all three of those projects have their own intricacies and their own ways to be deployed and managed.” (Shane Knapp)
+> “The nice thing about JupyterHub is that there's so many ways to deploy it. You've got The Littlest JupyterHub, you've got Zero to JupyterHub, and you've just got JupyterHub. And all three of those projects have their own intricacies and their own ways to be deployed and managed.” 
+>
+> -- Shane Knapp
 
 Later in the conversation, Shane describes how this flexibility makes it difficult to identify reference architectures and causes pain points in getting started with JupyterHub. He believes there is a lack of statistics about implementations that could be beneficial to better understand the way users are deploying JupyterHub, thereby helping the project’s developers ease common pain points in the most popular types of deployments:
 
-> “So being able to figure out like … the matrix of types of JupyterHub deployments and sizes of those deployments, that would be a good start. And then, ‘OK, where are they deployed?  Are they on-prem? Are they in the cloud? And how big of a team is running this?’ So if you've got a DevOps team of a few people doing it on-prem with a NOC, then, they have a huge advantage over someone like me. Because I'm doing it on the cloud, I don't have a team.” (Shane Knapp)
+> “So being able to figure out like … the matrix of types of JupyterHub deployments and sizes of those deployments, that would be a good start. And then, ‘OK, where are they deployed?  Are they on-prem? Are they in the cloud? And how big of a team is running this?’ So if you've got a DevOps team of a few people doing it on-prem with a NOC, then, they have a huge advantage over someone like me. Because I'm doing it on the cloud, I don't have a team.” 
+>
+> -- Shane Knapp
 
 From these sets of statistics Shane is talking about, the JupyterHub team could consider developing personas for these different user types (and deployer types). As Damián Avila, a former employee of 2i2c and a contributor to JupyterHub stated:
 
-> “I mean – easiness of deploying … It's super important. And I think that should be something that JupyterHub continues fostering somehow… It should be relatively easy for the deployers. I'm thinking about the subset of personas that are deploying, to deploy JupyterHub in front of their users.” (Damián Avila)  
+> “I mean – easiness of deploying … It's super important. And I think that should be something that JupyterHub continues fostering somehow… It should be relatively easy for the deployers. I'm thinking about the subset of personas that are deploying, to deploy JupyterHub in front of their users.” 
+>
+> -- Damián Avila  
 
 The flexibility of JupyterHub, in other words, comes at the cost of confusing complexity for those who might be new to use or deployment. Past efforts to create a set of instructions for “Installing JupyterHub The Hard Way,” a play on Zed Shaw’s “Learn Code The Hard Way,” illustrate the project’s awareness of this problem, yet these types of resources are not easily found by newcomers.
 
@@ -41,69 +49,99 @@ This opacity does not necessarily signal a problem with the leadership structure
 
 Ad-hoc leadership structures can be effective, and JupyterHub leadership has done an impressive job in adapting to growing complexity with such structures in place. As Fernando described, the success of the ad-hoc structure within the Jupyter ecosystem depends largely on subproject team members paying close attention to the positive and negative outcomes of decisions in the broader Jupyter ecosystem and adapting them to their own teams. This aspect of leadership is something JupyterHub, and Min RK in particular, have excelled in:
 
-> “As JupyterHub kind of differentiated itself, as the system grows, each piece becomes more complex, it becomes richer. It kind of had its own energy, but at that point, **I think whatever good or ill we did with the project at large, that team kind of picked up those ideas and they kind of ran with them**.” (Fernando Pérez) 
+> “As JupyterHub kind of differentiated itself, as the system grows, each piece becomes more complex, it becomes richer. It kind of had its own energy, but at that point, **I think whatever good or ill we did with the project at large, that team kind of picked up those ideas and they kind of ran with them**.” 
+>
+> -- Fernando Pérez 
 
 This process of assessing changes external to JupyterHub and implementing them, however, has gotten more difficult for leaders over time. The Jupyter ecosystem has grown in size and scope, and keeping track of subproject and project-wide decisions has been a challenge:
 
-> “Yeah, there was a time when I myself personally read and often responded to every issue on IPython within a day. And that was manageable, again, as a young person with no significant, uh, additional responsibilities, and a level of energy and availability. But that lasted maybe two years, and it started to grow very quickly with the arrival of the notebook. And then we had what we called the big split, because IPython used to be one repo, the whole project notebook … But then when we decided to split up the project into component pieces with interfaces and things and call it Jupyter, that made it harder to keep track of things. **Just as the amount of attention that we were getting grew and as spreading ourselves across GitHub made it a lot harder to keep track of all the things that were going on.** And now, I don't know, Jupyter is like seven organizations and I don't know, now nobody tries to be on top of the whole thing. It's too big. And it's been a long time since I tried. Probably it was around the start of the JupyterLab project that I started to not follow everything, because JupyterLab picked up as a fairly high velocity new project that I also didn't have a lot of interest in. And so I just kind of let other people take that and then I focused on my areas.” (Min RK)
+> “Yeah, there was a time when I myself personally read and often responded to every issue on IPython within a day. And that was manageable, again, as a young person with no significant, uh, additional responsibilities, and a level of energy and availability. But that lasted maybe two years, and it started to grow very quickly with the arrival of the notebook. And then we had what we called the big split, because IPython used to be one repo, the whole project notebook … But then when we decided to split up the project into component pieces with interfaces and things and call it Jupyter, that made it harder to keep track of things. **Just as the amount of attention that we were getting grew and as spreading ourselves across GitHub made it a lot harder to keep track of all the things that were going on.** And now, I don't know, Jupyter is like seven organizations and I don't know, now nobody tries to be on top of the whole thing. It's too big. And it's been a long time since I tried. Probably it was around the start of the JupyterLab project that I started to not follow everything, because JupyterLab picked up as a fairly high velocity new project that I also didn't have a lot of interest in. And so I just kind of let other people take that and then I focused on my areas.” 
+>
+> -- Min RK
 
 In many ways, Min’s increasing focus on his domain of expertise has enabled JupyterHub to set and maintain its own direction as other aspects of the Jupyter ecosystem have changed. JupyterHub is able to adapt to change when needed, but otherwise remains stable and serves as a lynchpin in supporting the development and usage of other subprojects. It does, however, also introduce bandwidth issues, particularly in bringing in more labor to the project via newcomers, in avoiding leadership burnout, and in marketing and championing the project.
 
 Luckily, experienced users and deployers of JupyterHub approach the complexity problem with empathy and understand the need for complexification. Likewise, these users and deployers recongnize the value that the JupyterHub team's ability to adapt to complexity has also enhanced the project's impact:
 
-> “Before I was involved with JupyterHub, I thought, like, I had a good sense about how to deploy small software projects and things like that. But after engaging with this larger community, I'm like, I realized I really didn't know anything. It's like, the more I knew, the less I knew. And so it really forced me to pay attention more to best practices, to look at what other people were doing and understand the decisions we're making in terms of software distribution, continuous integration, all that stuff.” (Ryan Lovett) 
+> “Before I was involved with JupyterHub, I thought, like, I had a good sense about how to deploy small software projects and things like that. But after engaging with this larger community, I'm like, I realized I really didn't know anything. It's like, the more I knew, the less I knew. And so it really forced me to pay attention more to best practices, to look at what other people were doing and understand the decisions we're making in terms of software distribution, continuous integration, all that stuff.” 
+>
+> -- Ryan Lovett 
 
-> “It's amazing how configurable it is. There's so many configurable parts to it. Every authentication component is configurable. The spawning aspect is configurable. You can spawn on a Kubernetes, spawn on to Docker, spawn on a big single user machine. And so it's deliberately designed in such a way that it's not like a product that you just sort of hand off to people, it's meant to be like deployed in many different ways.” (Ryan Lovett) 
+> “It's amazing how configurable it is. There's so many configurable parts to it. Every authentication component is configurable. The spawning aspect is configurable. You can spawn on a Kubernetes, spawn on to Docker, spawn on a big single user machine. And so it's deliberately designed in such a way that it's not like a product that you just sort of hand off to people, it's meant to be like deployed in many different ways.” 
+>
+> -- Ryan Lovett 
 
 <br>
 
 ## Reconciling Complexity, Leadership, and the Newcomer Experience
 
-> *“The project has a level of complexity that makes it hard to contribute to it.” (Fernando Pérez)*
+> *“The project has a level of complexity that makes it hard to contribute to it.” 
+>
+> -- Fernando Pérez*
 
 JupyterHub has evolved substantially in its 10-year history, growing from a user base comprising instructors and learners to one comprising scientists, data scientists, and corporate teams. The expansion in use cases drove necessary complexification, but only a handful of people have seen the entirety of this evolution up close. As Sarah explained, the project’s evolutionary context is simultaneously important to understand and difficult to communicate via standard software development practices:
 
-> “And I think the other problem is that JupyterHub itself is now a very mature project. And it was even at the time I was joining around 2018, 2019, right? So the kinds of things like, if you're building a new feature, the kinds of work that need to be done have to be done **in the context of the history of the project**: what APIs already exist, and are you going to break anything changing this. **So it becomes very difficult as a new person. It's a very intimidating project because it's very technical and it's very spread out and the things we need to do are, by nature, complex. Because the core itself is stable and we're pushing boundaries now**. So that's difficult.” (Sarah Gibson) 
+> “And I think the other problem is that JupyterHub itself is now a very mature project. And it was even at the time I was joining around 2018, 2019, right? So the kinds of things like, if you're building a new feature, the kinds of work that need to be done have to be done **in the context of the history of the project**: what APIs already exist, and are you going to break anything changing this. **So it becomes very difficult as a new person. It's a very intimidating project because it's very technical and it's very spread out and the things we need to do are, by nature, complex. Because the core itself is stable and we're pushing boundaries now**. So that's difficult.” 
+>
+> -- Sarah Gibson 
 
 Carol echoed the sentiment about needing context to get involved as a contributor:
 
-> “When you have a complex either language or project like JupyterHub, where it isn't necessarily outward facing, the challenge is there's a lot of context that's needed to become effective as a contributor.” (Carol Willing) 
+> “When you have a complex either language or project like JupyterHub, where it isn't necessarily outward facing, the challenge is there's a lot of context that's needed to become effective as a contributor.” 
+>
+> -- Carol Willing 
 
 Indeed, all interviewees expressed difficulty navigating the project’s complexity, understanding its historical context, and communicating it to others. Even the most extensive users–such as those managing deployments at large universities–face a steep learning curve when beginning to work with JupyterHub. These challenges intensify when paired with increasingly complex use cases, as described by Balaji Alwar, Datahub Service Lead for Berkeley’s Research Teaching and Learning and data science undergraduate divisions: 
 
-> “So the kind of use cases keep getting complex. I would say in my journey with Berkeley I would say over the last four years, and also **the complexity of the infrastructure like for me was a huge learning curve** because from the Berkeley side, the list of things we need to do, like upgrading Kubernetes, upgrading other system packages, hub images, and so on, and ensuring that it happens in a stable way, and there is no outage that happens during instruction time. So handling that dichotomy has always been a hard thing, I would say.” (Balaji Alwar)
+> “So the kind of use cases keep getting complex. I would say in my journey with Berkeley I would say over the last four years, and also **the complexity of the infrastructure like for me was a huge learning curve** because from the Berkeley side, the list of things we need to do, like upgrading Kubernetes, upgrading other system packages, hub images, and so on, and ensuring that it happens in a stable way, and there is no outage that happens during instruction time. So handling that dichotomy has always been a hard thing, I would say.” 
+>
+> -- Balaji Alwar
 
 As one interviewee put it, JupyterHub is “a beast,” and one that many users cannot contribute to unless their organization explicitly supports them in scaling the learning curve. Users like Balaji, who has a keen interest in improving the accessibility of JupyterHub and other OSS tools, are uncertain about how they can best use their skills to make contributions to the project. Beyond the technical complexity, it is unclear to users who they should work with to begin the onboarding process and make contributions to a given component of the project.
 
 This unclear leadership structure over domains that newcomers may be interested in is a direct result of the project’s complexity, creating a feedback loop that is detrimental to the project’s goals. As Min explained, making meaningful contributions requires expertise in at least two domains of the project; leadership over any one component, therefore, actually requires some level of leadership (or at least extensive knowledge) over two components:
 
-> “**And pretty much everything in the JupyterHub project is about interfacing between two different things.** And so to do almost anything other than, you know, this one tiny fix here for your specific problem, getting to kind of maintain our capacity on pretty much anything in JupyterHub requires expertise or, you know, comfort in at least two, uh, significant topics.” (Min RK)
+> “**And pretty much everything in the JupyterHub project is about interfacing between two different things.** And so to do almost anything other than, you know, this one tiny fix here for your specific problem, getting to kind of maintain our capacity on pretty much anything in JupyterHub requires expertise or, you know, comfort in at least two, uh, significant topics.” 
+>
+> -- Min RK
 
 Resolving this issue of leadership over components of the project is difficult in large part because existing leaders do not have the time to support a diffusion of responsibility, and few people have the necessary command of two or more domains. Ideas for improving the situation have been raised, but often take a back seat to pressing technical issues that need to be addressed by leaders–leaving them less time to attend to the project’s management, again exacerbating a detrimental feedback loop:
 
-> “And there are different kinds of maintenance needs. And I believe 2i2c can certainly help a lot with parts, but there are some parts of contributions that I believe that will be needing to rely on these Min and Simon kind of contributions that are very broad. Like if there is a security incident reported in a repository, I can see Simon and Min responding to that, even though they're not active users of that, but would. **Yeah, we are leaning heavily on very few, maybe including me if I have time and will invest time to do those parts. … I perceive it as, we have multiple tracks of contributions where some contributions can only be done by highly trusted people, like a security incident. You don't see that at all as a person not already a maintainer in the project.**” (Erik Sundell)
+> “And there are different kinds of maintenance needs. And I believe 2i2c can certainly help a lot with parts, but there are some parts of contributions that I believe that will be needing to rely on these Min and Simon kind of contributions that are very broad. Like if there is a security incident reported in a repository, I can see Simon and Min responding to that, even though they're not active users of that, but would. **Yeah, we are leaning heavily on very few, maybe including me if I have time and will invest time to do those parts. … I perceive it as, we have multiple tracks of contributions where some contributions can only be done by highly trusted people, like a security incident. You don't see that at all as a person not already a maintainer in the project.**” 
+>
+> -- Erik Sundell
 
 As Sarah described, there is likely a need for newcomers to be walked through the layers of the project’s organization and structure in order to begin addressing the overdependence on a few key individuals:
 
-> “I've got an issue open somewhere actually, kind of talking about allowing people to self-nominate and being better at nominating other people to walk through those team layers.” (Sarah Gibson) 
+> “I've got an issue open somewhere actually, kind of talking about allowing people to self-nominate and being better at nominating other people to walk through those team layers.” 
+>
+> -- Sarah Gibson 
 
 Absent this interpretive layer, newcomers and potential contributors struggle to identify areas where they can help:
 
-> “I wish… I could contribute more than I am actually doing. And it's a combination of lack of time, and when I do have time, it's not a lot of time. And it's hard to know where I should concentrate my efforts too, so that I can be efficient and as helpful as possible. I feel, again, the same feeling of loss of, **‘What do I do? What's the most important thing that I should be doing? \[What\] should I be focusing on?**’ And this just makes you feel a bit tired. And it's hard to start, basically, to do anything.” (Georgiana Dolocan)
+> “I wish… I could contribute more than I am actually doing. And it's a combination of lack of time, and when I do have time, it's not a lot of time. And it's hard to know where I should concentrate my efforts too, so that I can be efficient and as helpful as possible. I feel, again, the same feeling of loss of, **‘What do I do? What's the most important thing that I should be doing? \[What\] should I be focusing on?**’ And this just makes you feel a bit tired. And it's hard to start, basically, to do anything.” 
+>
+> -- Georgiana Dolocan
 
 This attention to newcomer skills and expertise may become increasingly important as JupyterHub branches into new domains, such as AI:
 
-> “So we need to make sure that we provide entry points so people can connect with all the different \[areas\]. I mean, super exciting AI infrastructure that is out there and is going to grow into the future for sure.” (Damián Avila)
+> “So we need to make sure that we provide entry points so people can connect with all the different \[areas\]. I mean, super exciting AI infrastructure that is out there and is going to grow into the future for sure.” 
+>
+> -- Damián Avila
 
 Approaches to solving this problem need not be complex, time-consuming organizational processes involving new teams or additional responsibilities for already-busy leaders. As several interviewees pointed out, publishing and continually updating the project’s roadmap and developing a regular release cadence could be key ways to engage new contributions. Discussions with major deployers of JupyterHub in the June Leadership Workshop, for example, noted that there is no “right” time for releases; it is always a challenge to ensure that operations continue immediately after a release. But frequent, predictable releases were preferable to ad hoc release scheduling to ensure that deployers could have the staff and time set aside to accommodate releases. When given sufficient notice, deployers can have conversations within their teams that anticipate and remedy problems before they happen, a process that could be beneficial to the broader community when avenues are available for sharing insights. Discussions such as these among deployers, users, and project members in public forums can be a key way to draw in new contributors and make them feel like part of the community.
 
 Beyond deployers, consistency is needed in how project direction is set and communicated for newcomers as well. Often these newcomers are seeking ways to “figure it out themselves” before making a demand on maintainer time, which is difficult to do when the project roadmap or general direction is not easily discoverable:
 
-> “When you're a beginner, it's hard for you to ask these questions. ‘Hey, is this something that you still want? If so, can you provide more details?’ Because you feel like you're not imposing, but you're asking maybe too much from the person on the other side, and you try to figure it out yourself. And when you can't, you're just like … I failed with this one, and stop from time to time. So yeah, I guess my answer would be to **give as much context as possible, and maybe keep the plan, the project plan, updated at all times. What's the direction of the project? Are we still going to do this? Because again, I remember in the beginning, I was seeing these milestone things on GitHub, but people were not using them anymore. But I couldn't know this, right?”** (Georgiana Dolocan) 
+> “When you're a beginner, it's hard for you to ask these questions. ‘Hey, is this something that you still want? If so, can you provide more details?’ Because you feel like you're not imposing, but you're asking maybe too much from the person on the other side, and you try to figure it out yourself. And when you can't, you're just like … I failed with this one, and stop from time to time. So yeah, I guess my answer would be to **give as much context as possible, and maybe keep the plan, the project plan, updated at all times. What's the direction of the project? Are we still going to do this? Because again, I remember in the beginning, I was seeing these milestone things on GitHub, but people were not using them anymore. But I couldn't know this, right?”** 
+>
+> -- Georgiana Dolocan 
 
 The final piece of this intertwined complexity, leadership, and newcomer challenge relates to existing team members’ reluctance to assert themselves as leaders. As mentioned earlier in this report, the JupyterHub project as a whole embodies a collective humility about its work and its impact. And although humility is helpful for maintaining a positive and welcoming environment, it can obstruct individuals from taking charge even when they know clearer leadership would be helpful:
 
-> “And there was a discomfort for me, in one, what's a good idea, and two, **not knowing how to bring people along with me without sounding like a dictator**. … I'm also involved in conversations where people are like, ‘Well anybody can lead from whatever position because it's about inspiring the people around you,’ and that's very different to managing. And I'm thinking, ‘Yeah, but I don't feel like I'm uncomfortable with the idea that I just pontificate and then go away and expect people to execute my idea.” (Sarah Gibson) 
+> “And there was a discomfort for me, in one, what's a good idea, and two, **not knowing how to bring people along with me without sounding like a dictator**. … I'm also involved in conversations where people are like, ‘Well anybody can lead from whatever position because it's about inspiring the people around you,’ and that's very different to managing. And I'm thinking, ‘Yeah, but I don't feel like I'm uncomfortable with the idea that I just pontificate and then go away and expect people to execute my idea.” 
+>
+> -- Sarah Gibson 
 
 <br>
 
@@ -113,7 +151,9 @@ Empowering team members to take on leadership challenges requires structures tha
 
 The primary issue with relying on collective responsibility without clear structure is that individual leaders end up feeling overburdened. This dynamic is a historical reality of the JupyterHub project, dating back to early development of the Binder project. As Chris explained:
 
-> “Probably another example was the second time that I had to get credits for mybinder.org because it made me realize that there was no plan to get credits in any other way than me just getting stressed out every year and emailing all the people that I knew that worked at cloud companies. And **realizing that unless there was some sort of non-linear shift in the group's approach to mybinder.org, then it was just going to have to be this implicit process of, you know, one or two leaders and the org kind of figuring it out themselves in nights and weekends on their own.**” (Chris Holdgraf)
+> “Probably another example was the second time that I had to get credits for mybinder.org because it made me realize that there was no plan to get credits in any other way than me just getting stressed out every year and emailing all the people that I knew that worked at cloud companies. And **realizing that unless there was some sort of non-linear shift in the group's approach to mybinder.org, then it was just going to have to be this implicit process of, you know, one or two leaders and the org kind of figuring it out themselves in nights and weekends on their own.**” 
+>
+> -- Chris Holdgraf
 
 This stress that Chris communicates is based on the ad hoc nature of how the project was being led and managed. Again and again in broader open source communities, a technical capability is created, users depend on and use it, and the long-term scaffolding structures that enable its continuation are pieced together in real-time to keep things running. This is not necessarily a bad thing, but dedicated time and space for retrospectives, system improvements, and technical debt removal can often be needed.  
 
@@ -128,11 +168,15 @@ JupyterHub has thrived with what organization scientists might call a “flat or
 
 When lazy consensus cannot be reached, the Team Compass indicates that the team lead has authority to make a final decision. Yet as Min RK, JupyterHub’s team lead, expressed in his interview, this can lead to one person being overburdened and/or feeling as if they are blocking progress when a quick decision cannot be made. Likewise, a lazy consensus model can prompt contributors to do too little or do too much: In the absence of timely feedback and discussion, a contributor may be discouraged and feel that their contributions are not valued, or they may go ahead and do things that do not align with the project’s preferred software development practices. Sarah Gibson explained the latter scenario and commented on its impact:
 
-> “So there's very little formalized governance, I think, and structure. And that makes it really hard to do things and promote the kinds of open source behavior that, you know, might not be wanted. If it's difficult to ask for permission, people just do things.” (Sarah Gibson) 
+> “So there's very little formalized governance, I think, and structure. And that makes it really hard to do things and promote the kinds of open source behavior that, you know, might not be wanted. If it's difficult to ask for permission, people just do things.” 
+>
+> -- Sarah Gibson 
 
 Indeed, aside from emojis denoting contributions to various components of the project, leadership over JupyterHub’s various domains are not clearly defined on the website or elsewhere in the documentation. This lack of role clarity obscures responsibility for encouraging positive behavior, makes consensus-building an unwieldy process, and slows down decision-making. While this model has certainly worked for JupyterHub so far (see above sections on successes), it may be fragile in that the team lead may become overburdened. Tim Head described issues he has seen with this negative feedback loop in other open source projects, noting that when consensus-building momentum is not adequately and consistently sustained by making timely decisions, projects can struggle to regain decision-making cohesion:
 
-> "If you don't establish a culture of consensus building, consensus is extremely difficult to bring back." (Tim Head)
+> "If you don't establish a culture of consensus building, consensus is extremely difficult to bring back." 
+>
+> -- Tim Head
 
 At the Leadership Workshop in June 2025, community members discussed how consensus-building is difficult because project structure is conflated with control across JupyterHub. In other words, community members and the core project team sometimes talk about leadership structure as if it were defined by technical permissions rather than in traditional organizational ways (e.g., org charts or formalized decision-making processes). This scenario was not, in attendees’ view, an ideal one; attendees noted that they would like the project to demonstrate a clear co-created contribution structure that gives people confidence to act and contribute without fear of violating an unnamed and undefined hierarchy. Still, they valued the “flat organization” model for its ability to instill a culture of [“do-ocracy”](https://communitywiki.org/wiki/DoOcracy) rather than a bureaucratic culture. 
 
@@ -144,7 +188,9 @@ This hesitancy is exacerbated by several other leadership challenges, many of wh
 
 Additionally, this challenge is an important one to address for current project team members and leadership because, in the absence of clear structure for labor allocation and delegation, **individual burdens arise in place of what should be community-held responsibilities.** JupyterHub community members who do take on leadership roles, formally or informally, do not feel comfortable or supported in distributing the work across the community. Project goals such as improving diversity and inclusion, for example, should be a community-wide effort rather than any one person’s responsibility. Yet funding and resources for such activities require project management, reporting, and other responsibilities, meaning that one person ends up taking on outsized burden to accomplish those goals.
 
-> “And then at some point, it was actually a little bit before I started working at 2i2c, the CZI grant started to be talked about. And it's a diversity, equity, and inclusion grant. And I care about it a lot. But I also think it was probably a little bit of a mistake to put me in that role. I don't really think I had a very mature strategy or leadership skills to be doing that kind of work. And it ended up just being a bit of a personal burden, really. No one was putting pressure on me externally, but I was putting a lot of pressure on myself for it. And yeah, ultimately decided to step back from that.” (Sarah Gibson)
+> “And then at some point, it was actually a little bit before I started working at 2i2c, the CZI grant started to be talked about. And it's a diversity, equity, and inclusion grant. And I care about it a lot. But I also think it was probably a little bit of a mistake to put me in that role. I don't really think I had a very mature strategy or leadership skills to be doing that kind of work. And it ended up just being a bit of a personal burden, really. No one was putting pressure on me externally, but I was putting a lot of pressure on myself for it. And yeah, ultimately decided to step back from that.” 
+>
+> -- Sarah Gibson
 
 <br>
 
@@ -154,25 +200,37 @@ Dependency on “lazy consensus” for decision-making has impacted JupyterHub�
 
 This arrangement is perhaps necessary under the project’s current structure, but reportedly leads to PRs not receiving attention: 
 
-> “PRs are definitely sitting too long.” (Min RK) 
+> “PRs are definitely sitting too long.” 
+>
+> -- Min RK 
 
 The impact of a PR sitting too long are well-understood by the JupyterHub team members we interviewed and in the broader open source community. The primary detrimental outcome is that contributors become discouraged and may hesitate to make additional contributions. As time passes, these would-be active contributors lose their familiarity with the codebase and drive even more hesitation:
 
-> “When PRs lag, basically, when you're waiting for somebody to review your work, and it doesn't happen … while the time passes, especially if it's on the larger side of a change, it's hard. You lose context when time passes of the things that you've done there … it's super hard to pick that up. **And when time passes, you also need to rebase other stuff that has changed … so I think this is the biggest challenge that slows a contributor down. And I've also seen that, especially when we have new contributors that are really excited … ‘I was really excited I managed to do this, I got up to speed with this project,’ and then like a month has passed.** **And I was like, ‘Okay I'm now not up to speed with this project anymore,’** and it's hard …  So it's just an incremental buildup of confidence and of energy and mental model of the project that you do while you contribute.” (Georgiana Dolocan) 
+> “When PRs lag, basically, when you're waiting for somebody to review your work, and it doesn't happen … while the time passes, especially if it's on the larger side of a change, it's hard. You lose context when time passes of the things that you've done there … it's super hard to pick that up. **And when time passes, you also need to rebase other stuff that has changed … so I think this is the biggest challenge that slows a contributor down. And I've also seen that, especially when we have new contributors that are really excited … ‘I was really excited I managed to do this, I got up to speed with this project,’ and then like a month has passed.** **And I was like, ‘Okay I'm now not up to speed with this project anymore,’** and it's hard …  So it's just an incremental buildup of confidence and of energy and mental model of the project that you do while you contribute.” 
+>
+> -- Georgiana Dolocan 
 
 Lagging attention to PRs in any open source project can be a deterrent to new contributor engagement and exacerbate the problem of sustaining a user to contributor to maintainer pipeline. Moreover, triage inefficiencies are not easily solved by a maintainer simply acting quickly on a PR to the best of their ability; in fact, this type of action can make matters worse when it results in the project growing unnecessarily complex. PRs might be merged simply because someone has put time and effort into it without guidance, and that contribution then has to be maintained by already overburdened core project team members:
 
-> “And then, you know, you feel bad about closing a PR that you didn't actually want. So it gets merged anyway. And then you end up maintaining something that wasn't co-created, I think is what I'm getting at.” (Sarah Gibson) 
+> “And then, you know, you feel bad about closing a PR that you didn't actually want. So it gets merged anyway. And then you end up maintaining something that wasn't co-created, I think is what I'm getting at.” 
+>
+> -- Sarah Gibson 
 
 On the other hand, if no team member acts quickly to address a PR, question, bug report, or other event, it may sit for an indefinite amount of time due to recency bias:
 
-> “Like if I see something that like just hits my email right now, and I either know the answer or it makes me mad or whatever, I'm much more likely to deal with that than something that has been sitting there for a week that I need to kind of build up a little context before I can deal with. But then the longer it goes, you know, the worse it feels to jump into it at all.” (Min RK) 
+> “Like if I see something that like just hits my email right now, and I either know the answer or it makes me mad or whatever, I'm much more likely to deal with that than something that has been sitting there for a week that I need to kind of build up a little context before I can deal with. But then the longer it goes, you know, the worse it feels to jump into it at all.” 
+>
+> -- Min RK 
 
 Prioritization and triage are difficult to improve in the absence of a consistent supply of maintainers and other key personnel. JupyterHub might consider having dedicated, sustained conversations about how these processes are structured, perhaps revisiting them on a regular basis to accommodate changes in key personnel’s availability and skill development. A partial solution, in other words, might not require a highly-formal and codified process, but rather ongoing and honest conversation about what can realistically be managed in a given week, month, or year with the current labor available.
 
-> “So Jupyter is kind of like big enough where there's some conflict, maybe, or disagreements that don't necessarily always resolve satisfactorily to keep people participating. And so people, while keeping their one foot in, participating more tepidly, they take on other efforts to do their own thing.” (Paul Ivanov)
+> “So Jupyter is kind of like big enough where there's some conflict, maybe, or disagreements that don't necessarily always resolve satisfactorily to keep people participating. And so people, while keeping their one foot in, participating more tepidly, they take on other efforts to do their own thing.” 
+>
+> -- Paul Ivanov
 
-> “I think that there are multiple times where the project has been conflict avoidant, or there's been a lack of crystal clarity around the fact that we fundamentally disagree about either what we're doing or how we're doing it. And a lack of decision to address that or to somehow it ends up kind of like at most like, oh, yes, we disagree. And then kind of let's diffuse away from into other things. People find new shiny toys to play with or they continue to try to participate in whatever way they can. But it's clear that we do not, as a project, openly talk about the things that we disagree about.” (Paul Ivanov) 
+> “I think that there are multiple times where the project has been conflict avoidant, or there's been a lack of crystal clarity around the fact that we fundamentally disagree about either what we're doing or how we're doing it. And a lack of decision to address that or to somehow it ends up kind of like at most like, oh, yes, we disagree. And then kind of let's diffuse away from into other things. People find new shiny toys to play with or they continue to try to participate in whatever way they can. But it's clear that we do not, as a project, openly talk about the things that we disagree about.” 
+>
+> -- Paul Ivanov 
 
 <br>
 
@@ -186,15 +244,21 @@ For established community members, the tension between allocating time to techni
 
 Synchronous meeting leadership is one example of an undervalued non-code contribution among existing project members, as pointed out by several interviewees and in the 2025 Leadership Workshop. A key outcome of strong leadership and management structure is productive and impactful use of synchronous collaboration time. JupyterHub community members reported that synchronous meeting time, in particular, can be a challenge without clarity on who should advertise the meeting, who is running the meeting, and who is responsible for getting through the agenda. The JupyterHub Collaboration Cafe is continually in need of advertisement and facilitators, for example, and individual team members can feel coerced to take on this responsibility:
 
-> “I don't remember how exactly, but I got into leading the community meetings … And that has become a bit of a staple as a thing that Sarah does, although we're trying to push back a little bit on that. Not that I dislike doing it, it's fine, but this is a thing that other people should be able to do, so that I can take time off, for example.” (Sarah Gibson) 
+> “I don't remember how exactly, but I got into leading the community meetings … And that has become a bit of a staple as a thing that Sarah does, although we're trying to push back a little bit on that. Not that I dislike doing it, it's fine, but this is a thing that other people should be able to do, so that I can take time off, for example.” 
+>
+> -- Sarah Gibson 
 
-> “So I think one thing I noticed in the collaboration cafes is, ultimately no one's paid to run or administer the collaboration cafes. And I think ultimately you can tell just by the chat that goes on in the issues before. It's like, ‘Who's taking notes that sort of thing? Who's running it?” (Simon Li) 
+> “So I think one thing I noticed in the collaboration cafes is, ultimately no one's paid to run or administer the collaboration cafes. And I think ultimately you can tell just by the chat that goes on in the issues before. It's like, ‘Who's taking notes that sort of thing? Who's running it?” 
+>
+> -- Simon Li 
 
 Further discussion about Collaboration Cafes–both at the 2025 JupyterHub leadership retreat and in Cafes throughout the year–suggested that taking on responsibility for organizing and facilitating such meetings is not internally or externally recognized as a leadership role. This view toward community organizing and management is common in open source projects: Well-resourced projects often hire a community manager who handles these tasks, but the individual is not viewed as a “manager” in the traditional sense of the word and is rarely identified as a project leader. Lack of recognition of community organization and management as a leadership role is exacerbated when the person doing the work is not heavily involved in software development or development decisions, even though the work is essential to the health of the project and requires authority to be most effective.
 
 Samuel Gaist suggests that automations in Slack channels which deliver notifications 30 minutes prior to meetings have been helpful in other communities they’ve participated in:
 
-> “Well, the cafe itself is open. That was the idea of the cafe, is that everybody is welcome. Now, I don't know whether it has been presented enough to the folks of the community, meaning I haven't followed whether there were more than one announcement about that, or if there's some reminder on the forum that the collab cafe is happening. I haven't checked whether there's a Slack channel (or equivalent) that also announces that kind of stuff. So, I'm not sure whether it's a question of making it more known or reminding people that it's there. Maybe possibly re-explain what it's all about. So, it might be just that. I'm really not sure.” (Samuel Gaist) 
+> “Well, the cafe itself is open. That was the idea of the cafe, is that everybody is welcome. Now, I don't know whether it has been presented enough to the folks of the community, meaning I haven't followed whether there were more than one announcement about that, or if there's some reminder on the forum that the collab cafe is happening. I haven't checked whether there's a Slack channel (or equivalent) that also announces that kind of stuff. So, I'm not sure whether it's a question of making it more known or reminding people that it's there. Maybe possibly re-explain what it's all about. So, it might be just that. I'm really not sure.” 
+>
+> -- Samuel Gaist 
 
 The above challenges are natural outcomes of project growth and the community’s orientation toward collective responsibility. With some structure to support this collective responsibility, JupyterHub can place itself in a strong position to continue having the impacts that have made the project a success.
 
@@ -207,6 +271,10 @@ like, 'Hey, this doesn't work out. When you do this, people bounce off.
 This is part of my job. I also know you and I know what, like, I have a
 lot of context to be able to participate in this. But this is feeling
 like a blocker for growing the community and for allowing people to
-continue to participate in this.'” (Paul Ivanov) 
+continue to participate in this.'”
+>
+> -- Paul Ivanov
 
-> “And it wasn't explicitly something about the project, but it was the kind of, like an example of someone feeling like, like this is too much, like this doesn't work for me. I'm not here for this kind of open source. I'm going to do something like this is wrong, and I'm just going to bounce out. And other people more kind of like fade away quietly and disengage in a less kind of splashy, bomby kind of way.” (Paul Ivanov) 
+> “And it wasn't explicitly something about the project, but it was the kind of, like an example of someone feeling like, like this is too much, like this doesn't work for me. I'm not here for this kind of open source. I'm going to do something like this is wrong, and I'm just going to bounce out. And other people more kind of like fade away quietly and disengage in a less kind of splashy, bomby kind of way.” 
+>
+> -- Paul Ivanov 

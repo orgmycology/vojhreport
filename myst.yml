@@ -65,6 +65,6 @@ project:
 site:
   template: book-theme
   options:
-  #   favicon: favicon.ico
-     logo: logo.png
-
+    #   favicon: favicon.ico
+    logo: logo.png
+    logo_dark: logo-dark.png
