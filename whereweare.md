@@ -1,9 +1,9 @@
 
 # Where We Are: Current Challenges in Sustaining JupyterHub
 
-> *“...​​And then it propagated much more rapidly than we were prepared for. Certainly much more than we expected or intended.” 
+> “...​​And then it propagated much more rapidly than we were prepared for. Certainly much more than we expected or intended.” 
 >
-> -- Min RK* 
+> -- Min RK
 
 We are hopeful that the above sections are convincing of the following: JupyterHub has had a substantial impact on learners, scientists, and its own community members, and the project is well-positioned to grow this impact even further. OSS projects, however, are often the victims of their own success. Interest in usage grows much faster than the number of contributors and maintainers, the level of funding, and institutional support available, making the project difficult to sustain. These “growing pains” can compound when there is no set leadership structure for the project to fundraise, delegate resources or allocate labor to particular priorities, and generally set a community-driven direction for the project. 
 
@@ -75,9 +75,9 @@ Luckily, experienced users and deployers of JupyterHub approach the complexity p
 
 ## Reconciling Complexity, Leadership, and the Newcomer Experience
 
-> *“The project has a level of complexity that makes it hard to contribute to it.” 
+> “The project has a level of complexity that makes it hard to contribute to it.” 
 >
-> -- Fernando Pérez*
+> -- Fernando Pérez
 
 JupyterHub has evolved substantially in its 10-year history, growing from a user base comprising instructors and learners to one comprising scientists, data scientists, and corporate teams. The expansion in use cases drove necessary complexification, but only a handful of people have seen the entirety of this evolution up close. As Sarah explained, the project’s evolutionary context is simultaneously important to understand and difficult to communicate via standard software development practices:
 
