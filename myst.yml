@@ -42,7 +42,7 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   exports:
     - format: pdf
-      logo: short_logo.png
+      logo: horizontal_logo_styled.svg
       template: lapreprint-typst
       id: vojh-report
       output: exports/voicesofjupyterhub.pdf
