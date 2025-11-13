@@ -1,16 +1,16 @@
 # Where We’ve Been: Celebrating JupyterHub’s Successes and Impact
 
-> *“I think that is probably the thing I'm most proud of with Jupyter, it's not the awards and all of that. It's how many people we've actually touched.” 
+> “I think that is probably the thing I'm most proud of with Jupyter, it's not the awards and all of that. It's how many people we've actually touched.” 
 >
-> -- Carol Willing* 
+> -- Carol Willing
 
-> *“Honestly, it's used. It's used. It's amazing. It's used by thousands around the world every day. And it's cloud agnostic and it's open source. And that's just really cool.”  
+> “Honestly, it's used. It's used. It's amazing. It's used by thousands around the world every day. And it's cloud agnostic and it's open source. And that's just really cool.”  
 >
-> -- Kirstie Whitaker* 
+> -- Kirstie Whitaker
 
-> *“It is about empowering people to use the computer to think interactively about data, about the world around them, about a computational question, about an algorithm, and to do that work openly, collaboratively, and to share the results of their work. And therefore, oh, well, if I want to do that work, but not on my laptop, but on a shared resource, I'm going to need something like JupyterHub.” 
+> “It is about empowering people to use the computer to think interactively about data, about the world around them, about a computational question, about an algorithm, and to do that work openly, collaboratively, and to share the results of their work. And therefore, oh, well, if I want to do that work, but not on my laptop, but on a shared resource, I'm going to need something like JupyterHub.” 
 >
-> -- Fernando Pérez*
+> -- Fernando Pérez
 
 The survival of an OSS project over a ten-year period is reason enough to celebrate: Few projects garner the support, usage, and development effort necessary to reach maturity, and **JupyterHub’s community should be proud of its continued successes.** Below, we discuss JupyterHub’s impact in two domains–education and scientific research–where the project has delivered access to interactive computing to users of diverse backgrounds. We then celebrate its success in cultivating a community of people who have grown their skills and made contributions to both JupyterHub and to broader computing and scientific communities.  
 
@@ -199,13 +199,13 @@ As we note in the recommendations section, JupyterHub’s leadership and communi
 
 ## The People Behind JupyterHub’s Success: Culture of Sustaining Impact
 
-> *“For me, open source and open science has always been about participation, not about access.” 
+> “For me, open source and open science has always been about participation, not about access.” 
 >
-> -- Fernando Pérez* 
+> -- Fernando Pérez
 
-> *“So I think, you know, the other thing that JupyterHub has done… Early on, we made a conscious decision to try and be inclusive and not just say it, but actually do something about it.” 
+> “So I think, you know, the other thing that JupyterHub has done… Early on, we made a conscious decision to try and be inclusive and not just say it, but actually do something about it.” 
 >
-> -- Carol Willing*
+> -- Carol Willing
 
 The above accomplishments and continued impacts depend upon a committed, small team of contributors and maintainers. As noted earlier, we asked the JupyterHub community what kept them engaged and active on the project. Almost universally, respondents mentioned the fulfillment they felt in contributing to improvements in education and research. These improvements span nearly every field, as is reflected in the makeup of the JupyterHub community: Our interviewees included people with backgrounds in physics, psychology, computer science, neuroscience, electrical engineering, astrophysics, biochemistry, archaeology, mathematics, and photography, and the broader community is even more diverse than this subset.
 
