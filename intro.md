@@ -10,3 +10,5 @@ This report was conducted with funding from the Chan-Zuckerberg Initiative by th
 
 ```{tableofcontents}
 ```
+
+![](horizontal_logo_styled.svg)
