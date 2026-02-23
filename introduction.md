@@ -1,3 +1,4 @@
+(vojhreport-introduction)=
 # Introduction and Motivation
 
 The JupyterHub project enables a unique form of interactive computing that has transformed the ways students and researchers collaborate, innovate, and learn. At the core of this success is the project’s commitment to reducing technical barriers via web-based interfaces: Deploying JupyterHub, novice or non-technical team members can avoid complex installation processes; system administrators (or ad hoc sysadmins) can make authentication and provisioning a more manageable and scalable task; scientists can easily share and iterate on their work with collaborators; and organizations can make the most of their local, cloud, and high-performance computing resources. 

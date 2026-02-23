@@ -1,3 +1,4 @@
+(vojhreport-whereweregoing)=
 # Where We’re Going: Recommendations for JupyterHub’s Future Directions
 
 The JupyterHub project has many pathways available for improving leadership and management structures, ensuring the long-term health of the community, and otherwise addressing the challenges expressed by interviewees. Engaging in these efforts will help the project to generate an increase in newcomers, to improve the newcomer-to-contributor pipeline, and to reduce the burdens experienced by a few key individuals.
